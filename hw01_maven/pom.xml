@@ -10,15 +10,14 @@
         <version>2019-09-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hw01_maven</artifactId>
-    <name>hw01_maven</name>
+    <artifactId>hw01-maven</artifactId>
+    <name>hw01-maven</name>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>28.1-jre</version>
         </dependency>
     </dependencies>
 
@@ -37,7 +36,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>HelloOtus</mainClass>
+                            <mainClass>ru.otus.homework.HelloOtus</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -7,9 +7,6 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Project Object Model -->
-    <!-- All POMs extend the Super POM unless explicitly set -->
-    <!--<parent>*</parent>-->
 
     <groupId>ru.otus</groupId>
     <artifactId>otus-java</artifactId>
@@ -17,13 +14,6 @@
 
     <packaging>pom</packaging>
 
-    <!--<properties>
-        <java.version>12</java.version>
-        <maven.compiler.release>${java.version}</maven.compiler.release>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>-->
-
-    <!-- endregion -->
 
     <modules>
         <module>hw01_maven</module>
